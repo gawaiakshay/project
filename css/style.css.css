@@ -1,0 +1,229 @@
+*{margin: 0px;
+padding: 0px;
+font-family:sans-serif}
+
+
+
+
+
+.container{
+height: 1000px;
+width: 100%;
+background-color: rgb(240, 180, 210);
+
+}
+.header{
+    display: block;
+    float: right;
+
+
+}
+.logo{height: 40px;
+width: 400px;
+background-color: transparent;
+float: left;
+position: absolute;
+left: 50px;
+top: 5px;
+margin-left: 20px;
+padding: 10px;
+
+}
+.header a :hover{background-color:  rgb(53, 4, 32);;
+    border-radius: 3px;
+}
+
+.image1{position: absolute;
+left: 0px;}
+
+.image2{position: absolute;
+    left: 60px;}
+
+    .image3{position: absolute;
+        left: 110px;}
+        
+        .image4{position: absolute;
+            left: 160px;}
+
+
+
+
+
+
+.email{
+    height: 30px;
+    width: 1000px;
+    float: right;
+    background-color:transparent;
+    
+
+
+}
+.email p{
+    position: absolute;
+    right: 40px;
+    top: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+
+
+
+
+.logoname{
+    height: 40px;
+    width: 200px;
+    background-color: transparent;
+    float: left;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+
+
+}
+
+.logoname p{
+    position: absolute;
+    left: 65px;
+    top: 20px;
+    font-size: 30px;
+
+}
+
+.header ul li{float: right;
+    list-style: none;
+    display: block;
+    height: 40px;
+    background-color: transparent;
+    width: 120px;
+    margin-top: 5px;
+    margin-left: 5px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    
+    
+}
+.header ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.header ul li a:hover{
+    background-color: rgb(240, 23, 146);
+    color: black;
+    border: 5px solid rgb(240, 23, 146);
+    border-radius: 10px;
+}
+.content{
+    height: 850px;
+    
+    background-color: transparent;;
+    position: absolute;
+    top: 150px;
+    width: 800px;
+}
+.line1{
+    font-size: 60px;
+    position: absolute;
+    left: 150px;
+}
+
+.line2{
+    font-size: 60px;
+    position: absolute;
+    left: 150px;
+    
+}
+
+
+.line3{
+    font-size: 20px;
+    position: absolute;
+    left: 50px;
+}
+
+
+
+
+.image{
+    height: 850px;
+    width: 600px;
+    background-color: rgb(240, 23, 146);;
+    position: absolute;
+    left: 800px;
+    top: 150px;
+    background-image: url(../image/sara2.jpeg);
+    background-size: cover;
+
+
+}
+
+
+.button1{
+    width: 320px;
+    border-radius: 30px;
+    font-weight: 40px;
+    border: 3px solid  rgb(240, 23, 146);;
+    cursor: pointer;
+    background-color:  rgb(240, 23, 146);
+    height: 40px;
+    position: absolute;
+    left: 55px;
+    
+}
+
+
+.button2{
+    width: 320px;
+    border-radius: 30px;
+    font-weight: 40px;
+    border: 1px solid  rgb(240, 23, 146);;
+    cursor: pointer;
+    background-color:  white;
+    height: 40px;
+    position: absolute;
+    left: 450px;
+    
+    
+}
+
+.footer{
+    height: 450px;
+    width: 800px;
+    background-color: transparent;
+    position: absolute;
+    top: 550px;
+    left: 0px;
+
+}
+
+.footer1{
+    position: absolute;
+    left: 30px;
+    right: 20px;
+    top: 400px;
+}
+
+.footer2{
+    position: absolute;
+    left: 90px;
+    right: 80px;
+    top: 330px;
+    border: 1px solid  rgb(240, 23, 146);; ;
+}
+
+
+.footerimage{
+    height: 300px;
+    width: 600px;
+    background-color: transparent;
+    position: absolute;
+    left: 80px; 
+    background-image: url(../image/graphic_design.jpg);
+    background-size: cover;
+}
